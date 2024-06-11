@@ -4,7 +4,7 @@ def fact(n):
         prod=prod*i
     return prod
 
-if (fact(j:=int(input("enter:")) -1 )-1) %j :
+if (fact(j:=int(input("enter:")) -1 )+1) %j :
     print("prime")
 else:
     print("not prime")
